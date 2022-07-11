@@ -1,0 +1,425 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "Welcome",  	
+
+Text = "Thank you for using Takeover Autofarm!",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "loaded!",  	
+
+Text = "Have fun!",
+
+})
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Takeover by Hastee#3392", "Sentinel")
+    local Tab = Window:NewTab("Main")
+    local Section = Tab:NewSection("Autofarm")
+    
+    enabled = true
+    
+    Section:NewToggle("Start Money", "Start Autofarm (Don't use on main account or use in Private server)", function(state)
+    if state then
+        enabled = true
+        while enabled do
+            local args = {
+                [1] = 8.6,
+                [2] = true
+            }
+    
+            game:GetService("ReplicatedStorage").RaceReq:InvokeServer(unpack(args))
+        wait()
+        end
+    else
+        enabled = false
+    end
+end)
+    
+    Section:NewToggle("Test", "Test)", function(state)
+    if state then
+        enabled = true
+        while enabled do
+            local args = {
+                [1] = 8.6,
+                [2] = true
+            }
+    
+            game:GetService("ReplicatedStorage").RaceReq:InvokeServer(unpack(args))
+        wait()
+        end
+    else
+        enabled = false
+    end
+end)
+local Tab = Window:NewTab("Spawn Cars")
+local Section = Tab:NewSection("Car List")
+
+Section:NewButton("1965 Cobra", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1965 Cobra"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2002 Enzo", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2002 Enzo"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2015 FXX K", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2015 FXX K"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2020 Huayra Roadster", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2020 Huayra Roadster"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2006 Charger R/T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2006 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2019 Supra", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2019 Supra"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2020 Bronco", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2020 Bronco"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1998 R33", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1998 R33"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1969 Charger R/T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1969 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1969 Charger R/T TUNER", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1969 Charger R/T TUNER"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2016 Viper ACR", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2016 Viper ACR"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2016 R8 V10+", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2016 R8 V10+"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2022 WRX", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2022 WRX"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2018 Continental Super Sport", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2018 Continental Super Sport"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 Challenger Hellcat", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 Challenger Hellcat"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2018 488 Pista", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2018 488 Pista"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 911 T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 911 Turbo S"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2017 AMG GTR", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2017 AMG GTR"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2022 EV", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2022 EV"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 Gemera", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 Gemera"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 Charger Hellcat", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 Charger Hellcat"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 Charger ScatPack", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 Charger ScatPack"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2018 Continental GT", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2018 Continental GT"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2018 720s", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2018 720s"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1963 Impala", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1963 Impala"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2020 DRIFT Supra", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2020 DRIFT Supra"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2022 S-Class S580", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2022 S-Class S580"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1968 Camaro Z28 TUNER", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1968 Camaro Z28 TUNER"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2022 992 GT3", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2022 992 GT3"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 Urus", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 Urus"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2022 Aventador LP780-4", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2022 Aventador LP780-4"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("GSX-R1000", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "GSX-R1000"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2023 C8 Z06 Z07", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2023 C8 Z06 Z07"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2023 C8 Z06", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2023 C8 Z06"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2021 TRX", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2021 TRX"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("2020 SF90", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "2020 SF90"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
