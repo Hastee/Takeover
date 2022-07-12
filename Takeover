@@ -62,7 +62,7 @@ end)
     end
 end)
 local Tab = Window:NewTab("Spawn Cars")
-local Section = Tab:NewSection("Car List")
+local Section = Tab:NewSection("Dealership Cars")
 
 Section:NewButton("1965 Cobra", "Spawn selected car.", function()
     print("Clicked")
@@ -423,3 +423,62 @@ local args = {
 game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
 
 end)
+
+local Section = Tab:NewSection("Emergency Vehicles")
+
+Section:NewButton("Police: Charger R/T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Livery 2006 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Police: Unmarked Charger R/T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Unmarked 2006 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Police: Charger R/T 2", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "UM Livery 2006 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Police: Unmdercover Charger R/T", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Undercover 2006 Charger R/T"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("EMS: Ambulance", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Ambulance"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Local")
+
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Script made by Hastee#3392")
+local Section = Tab:NewSection("Thanks to AaronS for help!")
