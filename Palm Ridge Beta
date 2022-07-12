@@ -1,0 +1,190 @@
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Palm Ridge by Hastee#3392", "DarkTheme")
+    local Tab = Window:NewTab("Main")
+    local Section = Tab:NewSection("Autofarm")
+    enabled = true
+    		
+    Section:NewToggle("Autofarm (requires car)", "Toggles Autofarm", function(state)
+    if state then
+        enabled = true
+        while enabled do
+  local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("1").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("2").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("3").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("4").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("5").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+[1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("6").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("7").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("8").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("9").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("10").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+[2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("11").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("12").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("13").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("14").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("15").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+[2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("16").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("17").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("18").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("19").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("20").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+[2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("21").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("22").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("23").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("24").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+            wait()
+            local args = {
+                [1] = "HIGHWAY HEAT",
+                [2] = game:GetService("ReplicatedStorage").Gameplay.Races:FindFirstChild("HIGHWAY HEAT").Checkpoints:FindFirstChild("25").L.Checkpoint_Base
+            }
+
+            game:GetService("ReplicatedStorage").Knit.Services.RaceService.RE.CheckpointHit:FireServer(unpack(args))
+        wait()
+        end
+    else
+        enabled = false
+    end
+end)
