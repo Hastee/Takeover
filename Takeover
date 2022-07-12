@@ -62,6 +62,69 @@ end)
     end
 end)
 local Tab = Window:NewTab("Spawn Cars")
+
+local Section = Tab:NewSection("'Rare' Cars")
+
+Section:NewButton("Marked 2016 Viper ACR", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Marked 2016 Viper ACR"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Marked 2018 488 Pista", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Marked 2018 488 Pista"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Marked 2022 992 GT3", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Marked 2022 992 GT3"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("OH-KAY Van", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "OH-KAY Van"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("1995 MR2", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "1995 MR2"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
+Section:NewButton("Golf Cart", "Spawn selected car.", function()
+    print("Clicked")
+local args = {
+    [1] = "Golf Cart"
+}
+
+game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
+
+end)
+
 local Section = Tab:NewSection("Dealership Cars")
 
 Section:NewButton("1965 Cobra", "Spawn selected car.", function()
