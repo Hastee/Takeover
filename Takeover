@@ -456,7 +456,7 @@ game:GetService("ReplicatedStorage").Spawn_Car:InvokeServer(unpack(args))
 
 end)
 
-Section:NewButton("Police: Unmdercover Charger R/T", "Spawn selected car.", function()
+Section:NewButton("Police: Undercover Charger R/T", "Spawn selected car.", function()
     print("Clicked")
 local args = {
     [1] = "Undercover 2006 Charger R/T"
