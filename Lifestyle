@@ -1,0 +1,118 @@
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lifestyle by Hastee#3392", "Midnight")
+    local Tab = Window:NewTab("Main")
+    local Section = Tab:NewSection("Epic")
+    enabled = true
+    
+    
+    Section:NewButton("Get all Gamepass cars", "It's free", function(state)
+    print("Clicked")
+	local args = {
+    	[1] = "Acuro NSX Widebody",
+    	[2] = 0,
+    	[3] = false,
+    	[4] = false
+	}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+wait(1)
+		local args = {
+    		[1] = "Mazde RX7 Track",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(1)
+	local args = {
+    	[1] = "Mitsibishi Eclipse Convertible",
+    	[2] = 0,
+    	[3] = false,
+    	[4] = false
+	}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+wait(1)
+		local args = {
+    		[1] = "Mazde RX7 Widebody",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(1)
+		local args = {
+    		[1] = "Mitsibishi Eclipse Coupe",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(0.5)
+		local args = {
+    		[1] = "Mitsibishi Evo Widebody",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(0.5)
+		local args = {
+    		[1] = "Nison 180SX Widebody",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(0.5)
+		local args = {
+    		[1] = "Nisson 350 Widebody",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait(0.5)
+		local args = {
+    		[1] = "Toyata Supra",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	end)
+	
+	 Section:NewToggle("alot debt", "dont click", function(state)
+    if state then
+        enabled = true
+        while enabled do
+local args = {
+    [1] = "Bugatto Divo",
+    [2] = 4500000,
+    [3] = false,
+    [4] = false
+}
+
+game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Mcloren F1",
+    [2] = 4500000,
+    [3] = false,
+    [4] = false
+}
+
+game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+        wait()
+        end
+    else
+        enabled = false
+    end
+end)
