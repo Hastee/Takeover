@@ -87,6 +87,15 @@ wait(1)
 		}
 
 	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
+	wait()
+			local args = {
+    		[1] = "Nisson 180SX Widebody",
+    		[2] = 0,
+    		[3] = false,
+    		[4] = false
+		}
+
+	game:GetService("ReplicatedStorage").Car_Manager:InvokeServer(unpack(args))
 	end)
 	
 	 Section:NewToggle("alot debt", "dont click", function(state)
