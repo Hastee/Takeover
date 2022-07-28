@@ -1,0 +1,151 @@
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lifestyle by Hastee#3392", "Midnight")
+    local Tab = Window:NewTab("Main")
+    local Section = Tab:NewSection("Epic")
+    enabled = true
+    
+    
+    Section:NewButton("Get all Gamepass cars", "It's free", function(state)
+    print("Clicked")
+	local args = {
+    	[1] = "Bugatea Boiled",
+    	[2] = 0,
+    	[3] = "17,17,17",
+    	[4] = "0,0,0",
+    	[5] = "17,17,17",
+    	[6] = "0,0,0",
+    	[7] = "117,0,0",
+    	[8] = "0,0,0",
+    	[9] = "0,0,0",
+    	[10] = "0,0,0",
+    	[11] = "0,0,0"
+	}
+
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+	wait()
+	local args = {
+	    [1] = "Koenigsekk Besko",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+	wait()
+	local args = {
+	    [1] = "Purrari El Purrari",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+wait()
+	local args = {
+	    [1] = "Jealousy Poison F5",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+		wait()
+	local args = {
+	    [1] = "Bugatea Veyron Sport",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+	
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+		wait()
+	local args = {
+	    [1] = "Bugatea Sheeron",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+	
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+		wait()
+	local args = {
+	    [1] = "Koenigsekk Abera RS",
+	    [2] = 0,
+	    [3] = "17,17,17",
+	    [4] = "0,0,0",
+	    [5] = "17,17,17",
+	    [6] = "0,0,0",
+	    [7] = "117,0,0",
+	    [8] = "0,0,0",
+	    [9] = "0,0,0",
+	    [10] = "0,0,0",
+	    [11] = "0,0,0"
+	}
+	
+	game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+
+	end)
+	
+    Section:NewButton("1 Million", "It's free", function(state)
+    print("Clicked")
+    local args = {
+    [1] = "Audy A4 Sedan",
+    [2] = -1000000,
+    [3] = "17,17,17",
+    [4] = "0,0,0",
+    [5] = "17,17,17",
+    [6] = "0,0,0",
+    [7] = "117,0,0",
+    [8] = "0,0,0",
+    [9] = "0,0,0",
+    [10] = "0,0,0",
+    [11] = "0,0,0"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "Audy A4 Sedan",
+    [2] = "Sell"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CarRemote2:FireServer(unpack(args))
+
+end)
