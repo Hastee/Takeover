@@ -149,3 +149,31 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CarRemote2:FireServer(unpack(args))
 
 end)
+
+    Section:NewButton("Add 100 Billion", "It's free", function(state)
+    print("Clicked")
+        local args = {
+    [1] = "Audy A4 Sedan",
+    [2] = -100000000000,
+    [3] = "17,17,17",
+    [4] = "0,0,0",
+    [5] = "17,17,17",
+    [6] = "0,0,0",
+    [7] = "117,0,0",
+    [8] = "0,0,0",
+    [9] = "0,0,0",
+    [10] = "0,0,0",
+    [11] = "0,0,0"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "Audy A4 Sedan",
+    [2] = "Sell"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CarRemote2:FireServer(unpack(args))
+end)
